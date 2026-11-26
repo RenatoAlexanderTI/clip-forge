@@ -9,6 +9,17 @@
   Pegas el link, eliges cuántos clips quieres y ClipForge hace el resto.
 </p>
 
+<p align="center">
+  <a href="https://github.com/RenatoAlexanderTI/clip-forge/releases"><img src="https://img.shields.io/github/v/release/RenatoAlexanderTI/clip-forge?label=descargar&color=3b82f6" alt="Última versión"></a>
+  <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-0078D6?logo=windows" alt="Windows 10 y 11">
+  <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white" alt="Python 3.10+">
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/RenatoAlexanderTI/clip-forge?color=10b981" alt="Licencia"></a>
+</p>
+
+<p align="center">
+  <img src="docs/screenshot.png" alt="Interfaz de ClipForge generando clips" width="900">
+</p>
+
 ---
 
 ## Índice
@@ -23,6 +34,8 @@
 8. [Solución de problemas](#solución-de-problemas)
 9. [Actualizar y desinstalar](#actualizar-y-desinstalar)
 10. [Privacidad](#privacidad)
+11. [Contribuir](#contribuir)
+12. [Licencia](#licencia)
 
 ---
 
@@ -126,7 +139,7 @@ Los archivos quedan en una de estas carpetas (ClipForge las detecta solo):
 
 ### 4. Descargar ClipForge
 
-1. Ve a la pestaña **[Releases](../../releases)** de este repositorio.
+1. Ve a la pestaña **[Releases](https://github.com/RenatoAlexanderTI/clip-forge/releases)** de este repositorio.
 2. Descarga el archivo `ClipForge-vX.X.zip` de la última versión.
 3. Descomprímelo en una carpeta tuya, por ejemplo `Documentos\ClipForge`.
    > Evita `C:\Program Files`: ClipForge guarda su configuración y los clips en su propia carpeta y ahí Windows no deja escribir.
@@ -298,3 +311,15 @@ python -m pip uninstall pywebview
 ## Tecnologías
 
 Python · [pywebview](https://pywebview.flowrl.com) · [Higgsfield](https://higgsfield.ai) (MCP) · [yt-dlp](https://github.com/yt-dlp/yt-dlp) · [FFmpeg](https://ffmpeg.org) · [whisper.cpp](https://github.com/ggml-org/whisper.cpp) vía [Subtitle Edit](https://www.nikse.dk/subtitleedit)
+
+---
+
+## Contribuir
+
+¿Encontraste un error o tienes una idea? Abre un **[Issue](https://github.com/RenatoAlexanderTI/clip-forge/issues)**. Si quieres aportar código, lee [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## Licencia
+
+ClipForge es software libre bajo la [licencia MIT](LICENSE): puedes usarlo, modificarlo y compartirlo, manteniendo el aviso de autoría.
+
+yt-dlp, FFmpeg, whisper.cpp y Subtitle Edit son proyectos independientes con sus propias licencias. ClipForge no los incluye: los usa si están instalados en tu PC.
