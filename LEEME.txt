@@ -1,0 +1,27 @@
+CLIPFORGE v2 - clips virales automaticos
+========================================
+
+1) INSTALAR (una sola vez, en PowerShell)
+   winget install yt-dlp.yt-dlp
+   winget install Gyan.FFmpeg
+   winget install DenoLand.Deno
+
+2) MODELO DE WHISPER (large-v3-turbo)
+   En Subtitle Edit > Speech to text > Whisper CPP, descarga "large-v3-turbo".
+   Queda en %AppData%\Subtitle Edit\SpeechToText\Cpp\Models\ggml-large-v3-turbo.bin (ClipForge lo detecta solo)
+
+3) ABRIR
+   Doble clic en Iniciar_ClipForge.bat (la primera vez instala pywebview).
+   - Pulsa "Iniciar sesion Higgsfield" arriba a la derecha.
+   - En Ajustes > Herramientas revisa que todo salga en verde.
+   - Pon tu cookies.txt de YouTube en esta carpeta (o eligelo en Ajustes).
+
+4) USAR
+   Pega el link, elige duracion, cantidad y estilo de subtitulos, y pulsa Generar clips.
+   Con "Tiempos manuales" se salta Higgsfield (no gasta creditos).
+
+Si ya tenias config.json de la version anterior, copialo a esta carpeta y
+conservas la sesion de Higgsfield.
+NO compartas config.json ni cookies.txt.
+
+Guia completa de instalacion: README.md

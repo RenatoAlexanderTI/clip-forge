@@ -1,0 +1,22 @@
+# Datos privados: NUNCA subir
+config.json
+cookies.txt
+*.cookies
+
+# Resultados y archivos temporales
+salida/
+*.mp4
+*.wav
+*.srt
+*.ass
+*_thumb.jpg
+clipforge_error.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Sistema
+Thumbs.db
+desktop.ini
